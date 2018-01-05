@@ -1,20 +1,55 @@
-.FrontEndProjects {
-    display: block;
+.projects {
     width: 100%;
     height: auto;
-    /* height: 600px; */
-    /* border: 2px solid red; */
     background-color: #222;
     color: white;
-    /* transition: height 2s; */
+  }
+
+  .FrontEndProjects {
+      /* display: flex; */
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
   }
 
   .imgStyle {
+      /* position: relative; */
       width: 400px;
-      margin: 20px;
+      
       border-radius: 20px;
   }
 
   .hTitle {
       padding-top: 20px;
+  }
+
+  .container {
+      position: relative;
+      width: 400px;
+      margin: 20px;
+      border-radius: 20px;
+  }
+
+  .container:hover {
+      height: 100%;
+  }
+
+  .overlay {
+      position: absolute;
+      bottom: 0;
+      height: 0%;
+      width: 100%;
+      overflow: hidden;
+      background-color: rgba(0, 0, 0, 0.2);
+      transition: 0.5s ease;
+      border-radius: 0 0 20px 20px;
+  }
+
+  .container:hover .overlay{
+    height: 80%;
+  }
+
+  .text {
+      float: left;
+      word-break: keep-all;
   }

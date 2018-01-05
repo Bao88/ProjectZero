@@ -1,8 +1,8 @@
 .App {
   text-align: center;
-  animation: fadeIn 2s linear forwards;
-  opacity: 0;
-  animation-delay: 2s;
+  /* animation: fadeIn 2s linear forwards; */
+  /* opacity: 0; */
+  /* animation-delay: 2s; */
 }
 
 .App-logo {
@@ -28,6 +28,7 @@
 
 .App-intro {
   font-size: large;
+  margin: 5% 10%;
 }
 
 @keyframes App-logo-spin {
