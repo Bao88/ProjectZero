@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 import logo from '../images/logo.svg';
 import '../css/App.css';
-import Intro from './intro';
+// import Intro from './intro';
+import FrontEndProjects from './FrontEndProjects';
+
+
 
 class App extends Component {
+
   render() {
     return (
       <div className="App">
@@ -13,14 +17,13 @@ class App extends Component {
         </header>
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
-          <button>Add Stuff</button>
         </p>
 
         <div className="content">
-          hello
+          Add some content 
         </div>
 
-        <div className="portfolio"></div>
+        <FrontEndProjects />
 
         <div className="bottom"></div>
       </div>
