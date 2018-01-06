@@ -15,12 +15,13 @@
   .imgStyle {
       /* position: relative; */
       width: 400px;
-      
       border-radius: 20px;
   }
 
   .hTitle {
-      padding-top: 20px;
+    font-family: "Great Vibes", cursive; 
+    text-shadow: 1px 1px 1px white; 
+    padding-top: 20px;
   }
 
   .container {
@@ -50,6 +51,8 @@
   }
 
   .text {
-      float: left;
+      padding-top: 20px;
+      text-align: center;
+      /* align-items: center; */
       word-break: keep-all;
   }

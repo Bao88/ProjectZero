@@ -2,10 +2,13 @@ import React from "react";
 import '../css/FrontEndProjects.css';
 
 // Importing images
-import img1 from '../images/BuildAWikipediaViewer.png';
-import img2 from "../images/aWeatherForecast.png";
-import img3 from "../images/quoteOfTheDay.png";
-import img4 from "../images/twitchTVAPI.png";
+import img0 from '../images/BuildAWikipediaViewer.png';
+import img1 from "../images/aWeatherForecast.png";
+import img2 from "../images/quoteOfTheDay.png";
+import img3 from "../images/twitchTVAPI.png";
+import img4 from "../images/javascriptCalc.png";
+import img5 from "../images/BuildaPomodoroClock.png";
+
 
 class Image extends React.Component {
     render() {
@@ -48,7 +51,9 @@ class FrontEndProjects extends React.Component {
         0: ["BuildAWikipediaViewer", "https://codepen.io/Bao88/full/GypKYB", "A CodePen.io app where we use the Wikipedia API to search for entries from their site, then load the results to our site."],
         1: ["aWeatherForecast", "https://codepen.io/Bao88/full/badZrd", "A site which shows the location and the temperature of where you are currently at."],
         2: ["quoteOfTheDay", "https://codepen.io/Bao88/full/rpVPaX", "A simple site where we can generate a new random quote whenever we interact with it."],
-        3: ["twitchTVAPI", "https://codepen.io/Bao88/full/xpVOQL", "A project where we use the Twitch API to fetch the necessary data to check the status of selected streamers."]
+        3: ["twitchTVAPI", "https://codepen.io/Bao88/full/xpVOQL", "A project where we use the Twitch API to fetch the necessary data to check the status of selected streamers."],
+        4: ["javascriptCalc", "https://codepen.io/Bao88/full/eyzwKO/", "Build a javascript calculator which can calculate simple problems"],
+        5: ["BuildaPomodoroClock", "https://codepen.io/Bao88/full/YYEYXL/", "A Pomodoro Clock with some functionality"]
     };
 
     // imgNames = ["BuildAWikipediaViewer", "aWeatherForecast", "quoteOfTheDay", "twitchTVAPI"];
@@ -59,10 +64,12 @@ class FrontEndProjects extends React.Component {
             <div className="projects">
                 <h1 className="hTitle">freeCodeCamp Front End Development Projects</h1>
                 <div className="FrontEndProjects">
-                    <LinkedImages contents={this.images[0]} imgSrc={img1}/>
-                    <LinkedImages contents={this.images[1]} imgSrc={img2}/>
-                    <LinkedImages contents={this.images[2]} imgSrc={img3}/>
-                    <LinkedImages contents={this.images[3]} imgSrc={img4}/>
+                    <LinkedImages contents={this.images[0]} imgSrc={img0}/>
+                    <LinkedImages contents={this.images[1]} imgSrc={img1}/>
+                    <LinkedImages contents={this.images[2]} imgSrc={img2}/>
+                    <LinkedImages contents={this.images[3]} imgSrc={img3}/>
+                    <LinkedImages contents={this.images[4]} imgSrc={img4}/>
+                    <LinkedImages contents={this.images[5]} imgSrc={img5}/>
                 </div>
             </div>
         );

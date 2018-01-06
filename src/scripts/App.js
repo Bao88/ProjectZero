@@ -13,7 +13,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">My journey becoming a fullstack developer</h1>
+          <h1 className="App-title">My journey becoming a fullstack developer (website in progress)</h1>
         </header>
         <p className="App-intro">
           The purpose of this site is to show some of the projects that I did in the duration of a 20-weeks-course. I started
