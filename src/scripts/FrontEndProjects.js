@@ -8,6 +8,9 @@ import img2 from "../images/quoteOfTheDay.png";
 import img3 from "../images/twitchTVAPI.png";
 import img4 from "../images/javascriptCalc.png";
 import img5 from "../images/BuildaPomodoroClock.png";
+import img6 from "../images/tictactoe.png";
+import img7 from "../images/buildASimonGame.png";
+
 
 
 class Image extends React.Component {
@@ -53,7 +56,9 @@ class FrontEndProjects extends React.Component {
         2: ["quoteOfTheDay", "https://codepen.io/Bao88/full/rpVPaX", "A simple site where we can generate a new random quote whenever we interact with it."],
         3: ["twitchTVAPI", "https://codepen.io/Bao88/full/xpVOQL", "A project where we use the Twitch API to fetch the necessary data to check the status of selected streamers."],
         4: ["javascriptCalc", "https://codepen.io/Bao88/full/eyzwKO/", "Build a javascript calculator which can calculate simple problems"],
-        5: ["BuildaPomodoroClock", "https://codepen.io/Bao88/full/YYEYXL/", "A Pomodoro Clock with some functionality"]
+        5: ["BuildaPomodoroClock", "https://codepen.io/Bao88/full/YYEYXL/", "A Pomodoro Clock with some functionality"],
+        6: ["tictactoe", "https://codepen.io/Bao88/full/goXQEj/", "A Tic Tac Toe Game"],
+        7: ["buildASimonGame", "https://codepen.io/Bao88/full/eyyBNe/", "A memorization game, push the buttons in the same sequence as shown by the bot."]
     };
 
     // imgNames = ["BuildAWikipediaViewer", "aWeatherForecast", "quoteOfTheDay", "twitchTVAPI"];
@@ -70,6 +75,8 @@ class FrontEndProjects extends React.Component {
                     <LinkedImages contents={this.images[3]} imgSrc={img3}/>
                     <LinkedImages contents={this.images[4]} imgSrc={img4}/>
                     <LinkedImages contents={this.images[5]} imgSrc={img5}/>
+                    <LinkedImages contents={this.images[6]} imgSrc={img6}/>
+                    <LinkedImages contents={this.images[7]} imgSrc={img7}/>
                 </div>
             </div>
         );

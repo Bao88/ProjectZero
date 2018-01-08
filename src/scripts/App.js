@@ -21,7 +21,10 @@ class App extends Component {
         </p>
 
         <div className="content">
-          
+          <h1>Front End Development Program Certification</h1>
+          <a href="https://www.freecodecamp.org/bao88/front-end-certification">
+            <img src="https://i.imgur.com/ToFZKBd.jpg" alt="certification"/>
+          </a>
         </div>
 
         <FrontEndProjects />
