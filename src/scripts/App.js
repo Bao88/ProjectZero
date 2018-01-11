@@ -3,7 +3,7 @@ import logo from '../images/logo.svg';
 import '../css/App.css';
 // import Intro from './intro';
 import FrontEndProjects from './FrontEndProjects';
-
+import ReactProjects from './ReactProjects';
 
 
 class App extends Component {
@@ -28,7 +28,7 @@ class App extends Component {
         </div>
 
         <FrontEndProjects />
-
+        <ReactProjects />
         <div className="bottom"></div>
       </div>
     );

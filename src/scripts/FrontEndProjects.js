@@ -40,6 +40,8 @@ class LinkedImages extends React.Component {
     }
 }
 
+
+
 class EncapsulateImages extends React.Component {
     render() {
         return (
