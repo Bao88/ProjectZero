@@ -35,8 +35,8 @@ class LinkedImages extends React.Component {
 
 class ReactProjects extends React.Component {
     images = {
-        0: ["buildamarkdownpreviewer", "https://github.com/Bao88/buildamarkdownpreviewer", "React with SASS, a markdown previewer."],
-        1: ["buildacamperleaderboard", "https://github.com/Bao88/buildacamperleaderboard", "using REST/SOAP to fetch data and create a Top 100 campers in React"],
+        0: ["buildamarkdownpreviewer", "https://Bao88.github.io/buildamarkdownpreviewer", "React with SASS, a markdown previewer."],
+        1: ["buildacamperleaderboard", "https://Bao88.github.io/buildacamperleaderboard", "using REST/SOAP to fetch data and create a Top 100 campers in React"],
         2: ["buildarecipebox", "https://bao88.github.io/buildarecipebox/", "Build a Recipe Box where you can add, edit or delete data from the app, data will be stored to and retrieved from localstorage"]
     }
 
