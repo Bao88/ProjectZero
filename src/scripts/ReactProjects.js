@@ -6,6 +6,7 @@ import img0 from '../images/buildamarkdownpreviewer.png';
 import img1 from "../images/buildacamperleaderboard.png";
 import img2 from "../images/buildarecipebox.png";
 import img3 from "../images/buildagameoflife.png";
+import img4 from "../images/buildaroguelikedungeoncrawler.png";
 
 class Image extends React.Component {
     render() {
@@ -39,7 +40,12 @@ class ReactProjects extends React.Component {
         0: ["buildamarkdownpreviewer", "https://Bao88.github.io/buildamarkdownpreviewer", "React with SASS, a markdown previewer."],
         1: ["buildacamperleaderboard", "https://Bao88.github.io/buildacamperleaderboard", "using REST/SOAP to fetch data and create a Top 100 campers in React"],
         2: ["buildarecipebox", "https://bao88.github.io/buildarecipebox/", "Build a Recipe Box where you can add, edit or delete data from the app, data will be stored to and retrieved from localstorage"],
+<<<<<<< HEAD
         3: ["buildagameoflife", "https://bao88.github.io/buildthegameoflife/", "Build The Game of Life, also known simply as Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970."]
+=======
+        3: ["buildagameoflife", "https://bao88.github.io/buildagameoflife/", "Build The Game of Life, also known simply as Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970."],
+        4: ["buildaroguelikedungeoncrawler", "https://bao88.github.io/buildaroguelikedungeoncrawlerOptimized/", "Build a Roguelike Dungeon Crawler Game"]        
+>>>>>>> e1b03bd3232c2cd23ae89bf5985f1f13cd5434a0
     }
 
     render(){
@@ -51,6 +57,7 @@ class ReactProjects extends React.Component {
                    <LinkedImages contents={this.images[1]} imgSrc={img1}/>
                    <LinkedImages contents={this.images[2]} imgSrc={img2}/>
                    <LinkedImages contents={this.images[3]} imgSrc={img3}/>
+                   <LinkedImages contents={this.images[4]} imgSrc={img4}/>
                 </div>
             </div>
         );
