@@ -5,6 +5,12 @@ import '../css/App.css';
 import FrontEndProjects from './FrontEndProjects';
 import ReactProjects from './ReactProjects';
 import { Carousel } from 'react-responsive-carousel';
+import VisualizationProjects from './VisualizationProjects';
+
+// Images
+import img0 from "../images/data-visualization-certification.png";
+import img1 from "../images/front-end-certification.png";
+import img2 from "../images/Certificate.png";
 
 class App extends Component {
 
@@ -22,14 +28,22 @@ class App extends Component {
         </p>
 
         <div className="content">
-          <h1>Front End Development Program Certification</h1>
-          <a href="https://www.freecodecamp.org/bao88/front-end-certification">
-            <img src="https://i.imgur.com/ToFZKBd.jpg" alt="certification"/>
+          <h1>Certifications</h1>
+          <a href="https://www.freecodecamp.org/bao88/front-end-certification" target="_blank">
+            <img src={img1} alt="fcertification"/>
           </a>
+          <a href="https://www.freecodecamp.org/bao88/data-visualization-certification" target="_blank">
+            <img src={img0} alt="vcertification"/>
+          </a>
+          <a href="https://www.youracclaim.com/badges/19a1d2a0-11c5-4eb8-98a4-75d4d7d36dad/linked_in_profile" target="_blank">
+            <img src={img2} alt="maincertification"/>
+          </a>
+          
         </div>
 
         <FrontEndProjects />
         <ReactProjects />
+        <VisualizationProjects />
         <div className="bottom"></div>
       </div>
     );

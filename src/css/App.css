@@ -45,12 +45,12 @@
 }
 
 .content img {
-  width: 400px;
-  transition: width 1s;
+  height: 200px;
+  transition: height 1s;
 }
 
 .content img:hover {
-  width: 800px;
+  height: 400px;
 }
 
 @keyframes App-logo-spin {
