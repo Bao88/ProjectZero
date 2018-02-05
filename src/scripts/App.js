@@ -6,6 +6,7 @@ import FrontEndProjects from './FrontEndProjects';
 import ReactProjects from './ReactProjects';
 import { Carousel } from 'react-responsive-carousel';
 import VisualizationProjects from './VisualizationProjects';
+import ApiProjects from "./ApiProjects";
 
 // Images
 import img0 from "../images/data-visualization-certification.png";
@@ -44,6 +45,7 @@ class App extends Component {
         <FrontEndProjects />
         <ReactProjects />
         <VisualizationProjects />
+        <ApiProjects />
         <div className="bottom"></div>
       </div>
     );
