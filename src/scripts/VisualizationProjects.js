@@ -47,7 +47,7 @@ class VisualizationProjects extends React.Component {
     render(){
         return (
             <div className="projects">
-                <h1 className="hTitle">freeCodeCamp Data Visualization Projects</h1>
+                <h1 className="hTitle">Data Visualization Projects</h1>
                 <div className="FrontEndProjects">
                    <LinkedImages contents={this.images[0]} imgSrc={img0}/>
                    <LinkedImages contents={this.images[1]} imgSrc={img1}/>
