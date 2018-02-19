@@ -7,6 +7,7 @@ import ReactProjects from './ReactProjects';
 import { Carousel } from 'react-responsive-carousel';
 import VisualizationProjects from './VisualizationProjects';
 import ApiProjects from "./ApiProjects";
+import FullStackProjects from "./FullStackProjects"
 
 // Images
 import img0 from "../images/data-visualization-certification.png";
@@ -46,6 +47,7 @@ class App extends Component {
         <ReactProjects />
         <VisualizationProjects />
         <ApiProjects />
+        <FullStackProjects />
         <div className="bottom"></div>
       </div>
     );
